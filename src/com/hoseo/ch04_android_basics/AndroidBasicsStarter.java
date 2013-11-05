@@ -9,7 +9,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class AndroidBasicsStarter extends ListActivity {
-	String tests[] = { "LifeCycleTest", "SingleTouchTest", "MultiTouchTest" };
+	String tests[] = { "LifeCycleTest", "SingleTouchTest", "MultiTouchTest",
+			"Keytext", "AccelerometerTest", "AssetsTest",
+			"ExternalStorageTest","HelloWorld"};
 	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
